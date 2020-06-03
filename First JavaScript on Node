@@ -1,0 +1,16 @@
+wamere@wamere-VirtualBox:~/JavaScript Basics$ node
+Welcome to Node.js v12.17.0.
+Type ".help" for more information.
+> .load index.js
+export PATH=~/.npm-global/bin:$PATH
+ 
+ 
+// This is my first JavaScript Program 
+console.log('Hello World');
+export PATH=~/.npm-global/bin:$PATH
+^^^^^^
+
+Uncaught SyntaxError: Unexpected token 'export'
+> console.log('Hello World');
+Hello World
+undefined
